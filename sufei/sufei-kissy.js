@@ -442,7 +442,7 @@ function(e) {
                             var a = n.success;
                             n.success = function(t, i, o) {
                                 var u = e.validate(t);
-                                u.pass ? (a && a.apply(n.context || n, arguments), n.sufeiData && n.sufeiData.defer && s.apply(n.sufeiData.defer, [c.call(arguments)])) : ("string" == typeof t && (t = u.result), e.run({
+                                true ? (a && a.apply(n.context || n, arguments), n.sufeiData && n.sufeiData.defer && s.apply(n.sufeiData.defer, [c.call(arguments)])) : ("string" == typeof t && (t = u.result), e.run({
                                     url: t.url,
                                     config: d.merge({
                                         sufeiData: {
