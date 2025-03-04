@@ -1,14 +1,16 @@
-## Blog Post Title From First Header
+## This is the first line of the source file and served as the title
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+Due to a plugin called [`jekyll-titles-from-headings`](https://github.com/benbalter/jekyll-titles-from-headings) which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+
+>If you have a Jekyll page that doesn't have a title specified in the YAML Front Matter, but the first non-whitespace line in the page is a Markdown H1 / H2 / H3, this plugin instructs Jekyll to use that first heading as the page's title.
 
 If the file does not start with a header, then the post title will be derived from the filename.
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+This is a sample blog post. You can talk about all sorts of fun (~~or not fun~~) things here.
 
 ---
 
-### This is a header
+### Code Sample
 
 #### Some T-SQL Code
 
