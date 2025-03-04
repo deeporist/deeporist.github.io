@@ -6,9 +6,9 @@ Due to a plugin called [`jekyll-titles-from-headings`](https://github.com/benbal
 
 If the file does not start with a header, then the post title will be derived from the filename.
 
-This is a sample blog post. You can talk about all sorts of fun (~~or not fun~~) things here.
-
 ---
+
+This is a sample blog post. You can talk about all sorts of fun (~~or not fun~~) things here.
 
 ### Code Sample
 
